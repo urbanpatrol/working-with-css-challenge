@@ -2,29 +2,39 @@
 <html lang="en-gb">
 <head>
   <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
-  <link href="../challenge/assets/css/reset.css" rel="stylesheet" type="text/css">
   <link href="../challenge/assets/css/style.css" rel="stylesheet" type="text/css">
   <title>Ramon Fritz | Web Developer</title>
 </head>
+
 <body>
+  
   <header class="header">
     <h1><a href="#home" class="logo">Ramon Fritz<span id="web-dev"> [web developer]</span></a></h1>
+    <nav>
     <div class="header-right">
       <a href="#about">About</a>
       <a href="#work">Work</a>
       <a href="#contact">Contact</a>
     </div>
+  </nav>
   </header>
+  
+  <!-- Profile avatar image -->
   <img src="../challenge/assets/images/new-me.jpeg" alt="avatar" class="avatar">
+  
+  <!-- About me intro -->
   <div class="subHeading">
     <h3 id="about">About Me</h3>
   </div>
   <div class="subHeading-p">
   <p>Hi, and Welcome to my portfolio website! I am a web developer with experience in frontend development. This includes HTML, CSS, JavaScript and API. Below you can find examples of my work and case studies.</p>
   </div>
+
+  <!-- Portfolio grid -->
   <div class="subHeading">
     <h3 id="work">Work</h3>
   </div>
+  <!-- Hero section -->
   <section id="heroGrid">
     <div id="featuredWork" class="heroGridArea">
       <a href="https://ramonfritz.com" target="_blank"><div id="heroOverlay">
@@ -34,12 +44,14 @@
       </div></a>
     </div>
   </section>
+  
+  <!-- Additonal section for portfolio items -->
   <section id="workGrid">
     <div id="css" class="workGridArea">
       <div id="headline-work-small">
         <a href="#" target="_blank"><h4>CSS</h4></a>
         <h5>[HTML/CSS]</h5>
-      </div>
+        </div>
     </div>
     <div id="ux" class="workGridArea">
       <div id="headline-work-small">
@@ -60,16 +72,20 @@
       </div>
     </div>
   </section>
+
+  <!-- Contact -->
   <div class="subHeading">
     <h3 id="contact">Contact</h3>
   </div>
   <div class="subHeading-p">
       <p>Feel free to contact me if you have any queries or wish to discuss projects.</p>
-      <a href="mailto: ramon@ramonfritz.com"><div id="btn-send">Send Email</div></a>
+      <a href="mailto:ramon@ramonfritz.com"><div id="btn-send">Send Email</div></a>
   </div>
   
+  <!-- Footer -->
   <footer>
-    <p>Site crafted by me</p>
+    <p>Site crafted by me.</p>
   </footer>
+
 </body>
 </html>

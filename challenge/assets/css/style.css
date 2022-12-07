@@ -1,19 +1,21 @@
 body {
-  /* font-family: 'Poppins', sans-serif; */
+  font-family: 'Poppins', sans-serif;
   margin: 0;
 }
 
+/* Remove underlines for all linked content */
 a:link {
   text-decoration: none;
 }
 
-/* Style the header with a grey background and some padding */
+/* Style the header */
 .header {
   overflow: hidden;
   background-color: #f1f1f1;
   padding: 40px 45px;
 }
 
+/* Color 'span' in the logo */
 .header h1 span {
   color: skyblue;
 }
@@ -22,12 +24,8 @@ a:link {
 .header a {
   float: left;
   color: black;
-  text-align: center;
   padding: 12px;
-  text-decoration: none;
-  font-size: 18px; 
-  line-height: 25px;
-  border-radius: 4px;
+  font-size: 18px;
 }
 
 .header a.logo {
@@ -35,7 +33,7 @@ a:link {
   font-weight: bold;
 }
 
-/* Float the link section to the right */
+/* Navigation */
 .header-right {
   float: right;
 }
@@ -166,9 +164,6 @@ color: white;
   align-content: end;
 }
 
-/* Navigation */
-/* s */
-
 /* Typography CSS */
 h1, h2, h3, h4 {
   color: black;
@@ -194,6 +189,7 @@ h4 {
   font-size: 22px;
 }
 
+/* Contact */
 #btn-send {
   background-color: #f1f1f1;
   border: none;
@@ -221,7 +217,7 @@ footer {
     padding:0;
   }
   .header-right {
-    float: center;
+    float: left;
     width: 100%;
   }
   #heroOverlay {

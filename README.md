@@ -28,7 +28,7 @@ The acceptance criteria are defined as follows:
 
 ## Approach
 * Build out the basis of a website with header and footer along with navigational elements.
-* Utilise grid elements for the portfolio section of the website rendering the site responsive throughout.
+* Utilise grid elements for the portfolio section of the website rendering the site responsive throughout (some suggested using Flexbox but I chose not to purely as a decision to further my knowledge).
 * Use media queries to render break points for content display thereby ensuring content integrity via respective devices.
 * Semantic HTML elements - to give the code more structure and to make it easier to find items for future use. The following elements were introduced header, nav, article, aside and footer. This is used ultimately to help accessibility readers and search engines identify areas of content. 
 * Reviewing and amending as required the logical structure of HTML elements ensuring integrity.
@@ -40,25 +40,24 @@ The acceptance criteria are defined as follows:
 #### *Grid*
 It is a huge leap from editing existing code to producing code from scratch and I struggled initially with getting started.
 
-Although I believe the site responds acceptably it is small things like centering navigation with media queries where I spent more time than necessary trying to resolve the issue.
+Although I believe the site responds acceptably it is small things like centering navigation with media queries where I spent more time than necessary trying to resolve.
 
 ![](challenge/assets/images/portfolio-site-nav.png)
 
-As a result, code integrity is lacking as I have not had time to clean it up and add descriptions, semantic html, alt tags etc. and perhaps is a personal workflow issue that needs working on where this should be done as I work through the code rather than an end solution.
-
-I would ahve liked o push this further into mobile responsive for samller screens which it largely is but small issues are prevalent that coudl easily be resolved with more time and knowledge.
+I would have liked to push this further into mobile responsive for smaller screens which it largely is but small issues are prevalent that could easily be resolved with more time and knowledge.
 
 However, with all of the above, I believe that all acceptance criteria have been met.   
 
-The following was a useful resource:
+The following continues to be a useful resource:
 * [W3School CSS Tutorial](https://www.w3schools.com/css/)
+* As well as Kevin Powell's YouTube channel although a little advanced, there are some good snippets.
 
 ## Credits
 
 * Many thanks to Dan and the TA's for their incredible patience.
 * StackOverflow is an invaluable resource...again! :)
-* W3School as always.
-* ...and the hundreds of internet contributors I searched thorugh to find solutions... too many to mention.
+* W3School as always... a great resource.
+* ...and the hundreds of internet contributors I searched to find solutions... too many to mention.
 
 ## License
 
@@ -72,7 +71,8 @@ n/a
 
 ## Tests
 
-No testing or validation was done at this point and code should be validated for issues prior to being pushed into production.
+* Validation was done for the CSS using the [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/validator).
+* When validating the HTML, I am presented with an error for the id="headline-work-small" (lines: 51, 57, 63, 69) which is the small overlay tabs on the portfolio images. I understand these are repeated several times but is the validator always correct? I may need to rethink the format.
 
 ---
 
