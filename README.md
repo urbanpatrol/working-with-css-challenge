@@ -42,6 +42,8 @@ It is a huge leap from editing existing code to producing code from scratch and 
 
 Although I believe the site responds acceptably it is small things like centering navigation with media queries where I spent more time than necessary trying to resolve the issue.
 
+![](challenge/assets/images/portfolio-site-nav.png)
+
 As a result, code integrity is lacking as I have not had time to clean it up and add descriptions, semantic html, alt tags etc. and perhaps is a personal workflow issue that needs working on where this should be done as I work through the code rather than an end solution.
 
 I would ahve liked o push this further into mobile responsive for samller screens which it largely is but small issues are prevalent that coudl easily be resolved with more time and knowledge.
